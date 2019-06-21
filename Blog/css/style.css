@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    }
+    
+    header{
+      vertical-align: middle;
+      background-color: white
+    }
+    
+    hr{
+      height:20px;
+      background-color: red;
+    }
+    header span.logo{
+      color: white;
+      padding: 10px;
+      background-color: red;
+      font-size: 30px; 
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-45%, -45%);
+      border-radius: 50%
+    }
+    
+    .entrada{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    header p{
+      font-size:20px;
+      color:red;
+      text-align: center;
+    }
+    
+    img{
+      height: 150px;
+      width: 200px;
+    }
+    
+    section p{
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    section h4{
+      color:gray;
+      text-align:right;
+    }
+    
+    footer{
+      color:gray;
+      font-size: 14px;
+    }

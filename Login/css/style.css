@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  background: linear-gradient(to bottom, #3995ef 40%, gray 40%);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.check{
+  display: flex;
+  flex-direction: row;
+}
+
+.check input{
+ size: 2px;
+ background-color: #3995ef;
+}
+
+.fas{
+  font-size: 1.6rem;
+  color: white;
+  background-color: #3995ef;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+
+.box {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type=text]{
+  width: 60%;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid white;
+  border-left: white;
+  border-right: white;
+}
+
+::placeholder { 
+  color: #dddddd;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.check p{
+  padding: 10px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.button{
+  background-color: #3995ef;
+  color: #e2e2e2;
+  width: 90px;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: white;
+}
+
+.main h3{
+  color: white;
+}
